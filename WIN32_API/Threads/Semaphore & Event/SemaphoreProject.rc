@@ -1,0 +1,125 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "winres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (United States) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""winres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG_GRABFOOD DIALOGEX 0, 0, 309, 136
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Grab Food"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_EDIT_ORDERS,84,7,218,12,ES_AUTOHSCROLL
+    LTEXT           "Kitchen",IDC_STATIC,7,10,64,8
+    PUSHBUTTON      "Start",IDC_BUTTON_START,195,112,50,14
+    EDITTEXT        IDC_EDIT_WAITING1,84,22,108,12,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_EDIT_WAITING2,194,22,108,12,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "Waiting to be taken",IDC_STATIC,7,25,64,8
+    EDITTEXT        IDC_EDIT_CUSTOMER1,84,48,218,12,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_EDIT_CUSTOMER2,84,63,218,12,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_EDIT_CUSTOMER3,84,78,218,12,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_EDIT_CUSTOMER4,84,93,218,12,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "Customer A",IDC_STATIC,7,51,64,8
+    LTEXT           "Customer B",IDC_STATIC,7,66,64,8
+    LTEXT           "Customer C",IDC_STATIC,7,81,64,8
+    LTEXT           "Customer D",IDC_STATIC,7,95,64,8
+    LTEXT           ":",IDC_STATIC,76,8,8,8
+    LTEXT           ":",IDC_STATIC,76,24,8,8
+    LTEXT           ":",IDC_STATIC,75,50,8,8
+    LTEXT           ":",IDC_STATIC,75,65,8,8
+    LTEXT           ":",IDC_STATIC,75,80,8,8
+    LTEXT           ":",IDC_STATIC,75,94,8,8
+    LTEXT           "- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -",IDC_STATIC,7,37,295,8
+    PUSHBUTTON      "Close",IDC_BUTTON_CLOSE,248,112,50,14
+    GROUPBOX        "",IDC_STATIC,7,105,294,25
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_DIALOG_GRABFOOD, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 302
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 129
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AFX_DIALOG_LAYOUT
+//
+
+IDD_DIALOG_GRABFOOD AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+#endif    // English (United States) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
